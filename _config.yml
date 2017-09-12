@@ -5,16 +5,16 @@
 # Site
 title: 梦星河
 subtitle:
-description:
-author: Song
+description: 切不可与自己的平凡为敌，也不可与周遭的平庸为伍
+author: Mr.Soong
 language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.mengxinghe.xyz
+url: http://mrsoong.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :2017/:9/:10/:title/
 permalink_defaults:
 
 # Directory
