@@ -20,6 +20,9 @@
 
 
 
+
+
+
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 
@@ -38,10 +41,6 @@
 
 
 
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
 
 
 
@@ -50,47 +49,25 @@
 
 <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=6.0.2" rel="stylesheet" type="text/css" />
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.0.2">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.0.2">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.0.2">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
-
-
-
-
-
-  <meta name="keywords" content="文学," />
+  <link rel="mask-icon" href="/images/logo.svg?v=6.0.2" color="#222">
 
 
 
 
 
 
-
-
-
-
-<meta name="description" content="不是所有的鱼都会生活在同一片海里—村上春树每一个人都有属于自己的一片森林，迷失的人迷失了，相逢的人会再相逢。 如果我爱你，而你也正巧的爱我。你头发乱了时候，我会笑笑的替你拨一波，然后，手还留恋的在你发上多待几秒。但是，如果我爱你，而你不巧的不爱我。你头发乱了，我只会轻轻的告诉你，你头发乱了喔。这大概是最纯粹的爱情观，如若相爱，便携手到老;如若错过，便护他安好。 尽管世界上有那般广阔的空间，而容纳你">
-<meta name="keywords" content="文学">
-<meta property="og:type" content="article">
-<meta property="og:title" content="不是所有的鱼都会生活在同一片海里">
-<meta property="og:url" content="http://mrsoong.com/undefined/undefined/undefined/不是所有的鱼都会生活在同一片海里/index.html">
-<meta property="og:site_name" content="Moses Soong">
-<meta property="og:description" content="不是所有的鱼都会生活在同一片海里—村上春树每一个人都有属于自己的一片森林，迷失的人迷失了，相逢的人会再相逢。 如果我爱你，而你也正巧的爱我。你头发乱了时候，我会笑笑的替你拨一波，然后，手还留恋的在你发上多待几秒。但是，如果我爱你，而你不巧的不爱我。你头发乱了，我只会轻轻的告诉你，你头发乱了喔。这大概是最纯粹的爱情观，如若相爱，便携手到老;如若错过，便护他安好。 尽管世界上有那般广阔的空间，而容纳你">
-<meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-01-20T20:28:51.376Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="不是所有的鱼都会生活在同一片海里">
-<meta name="twitter:description" content="不是所有的鱼都会生活在同一片海里—村上春树每一个人都有属于自己的一片森林，迷失的人迷失了，相逢的人会再相逢。 如果我爱你，而你也正巧的爱我。你头发乱了时候，我会笑笑的替你拨一波，然后，手还留恋的在你发上多待几秒。但是，如果我爱你，而你不巧的不爱我。你头发乱了，我只会轻轻的告诉你，你头发乱了喔。这大概是最纯粹的爱情观，如若相爱，便携手到老;如若错过，便护他安好。 尽管世界上有那般广阔的空间，而容纳你">
 
 
 
@@ -99,15 +76,13 @@
   var CONFIG = {
     root: '/',
     scheme: 'Pisces',
-    version: '5.1.4',
+    version: '6.0.2',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: true,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    duoshuo: {
-      userId: '0',
-      author: '博主'
-    },
     algolia: {
       applicationID: '',
       apiKey: '',
@@ -119,14 +94,39 @@
 </script>
 
 
+  
+
+
+
+
+  
+  <meta name="keywords" content="文学," />
+
+
+<meta name="description" content="不是所有的鱼都会生活在同一片海里—村上春树每一个人都有属于自己的一片森林，迷失的人迷失了，相逢的人会再相逢。 如果我爱你，而你也正巧的爱我。你头发乱了时候，我会笑笑的替你拨一波，然后，手还留恋的在你发上多待几秒。但是，如果我爱你，而你不巧的不爱我。你头发乱了，我只会轻轻的告诉你，你头发乱了喔。这大概是最纯粹的爱情观，如若相爱，便携手到老;如若错过，便护他安好。 尽管世界上有那般广阔的空间，而容纳你">
+<meta name="keywords" content="文学">
+<meta property="og:type" content="article">
+<meta property="og:title" content="不是所有的鱼都会生活在同一片海里">
+<meta property="og:url" content="http://mrsoong.com/undefined/undefined/undefined/不是所有的鱼都会生活在同一片海里/index.html">
+<meta property="og:site_name" content="Moses&#39;s Note">
+<meta property="og:description" content="不是所有的鱼都会生活在同一片海里—村上春树每一个人都有属于自己的一片森林，迷失的人迷失了，相逢的人会再相逢。 如果我爱你，而你也正巧的爱我。你头发乱了时候，我会笑笑的替你拨一波，然后，手还留恋的在你发上多待几秒。但是，如果我爱你，而你不巧的不爱我。你头发乱了，我只会轻轻的告诉你，你头发乱了喔。这大概是最纯粹的爱情观，如若相爱，便携手到老;如若错过，便护他安好。 尽管世界上有那般广阔的空间，而容纳你">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-01-20T20:28:51.376Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="不是所有的鱼都会生活在同一片海里">
+<meta name="twitter:description" content="不是所有的鱼都会生活在同一片海里—村上春树每一个人都有属于自己的一片森林，迷失的人迷失了，相逢的人会再相逢。 如果我爱你，而你也正巧的爱我。你头发乱了时候，我会笑笑的替你拨一波，然后，手还留恋的在你发上多待几秒。但是，如果我爱你，而你不巧的不爱我。你头发乱了，我只会轻轻的告诉你，你头发乱了喔。这大概是最纯粹的爱情观，如若相爱，便携手到老;如若错过，便护他安好。 尽管世界上有那般广阔的空间，而容纳你">
+
+
+
+  <link rel="alternate" href="/sitemap.xml" title="Moses's Note" type="application/atom+xml" />
+
+
+
 
   <link rel="canonical" href="http://mrsoong.com/undefined/undefined/undefined/不是所有的鱼都会生活在同一片海里/"/>
 
 
-
-
-
-  <title>不是所有的鱼都会生活在同一片海里 | Moses Soong</title>
+  <title>不是所有的鱼都会生活在同一片海里 | Moses's Note</title>
   
 
 
@@ -135,6 +135,34 @@
 
 
 
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
 
 </head>
 
@@ -149,19 +177,19 @@
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
+      <div class="header-inner"> <div class="site-brand-wrapper">
   <div class="site-meta ">
     
 
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Moses Soong</span>
+        <span class="site-title">Moses's Note</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle">梦星河</p>
+        <h1 class="site-subtitle" itemprop="description">梦星河</h1>
       
   </div>
 
@@ -183,71 +211,13 @@
         
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            首页
-          </a>
+            <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
         </li>
       
         
         <li class="menu-item menu-item-about">
           <a href="/about/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            关于
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            归档
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-schedule">
-          <a href="/schedule/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
-            
-            日程表
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-sitemap">
-          <a href="/sitemap.xml" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
-            
-            站点地图
-          </a>
+            <i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于</a>
         </li>
       
 
@@ -257,10 +227,7 @@
             <a href="javascript:;" class="popup-trigger">
           
             
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
-            
-            搜索
-          </a>
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />搜索</a>
         </li>
       
     </ul>
@@ -293,9 +260,15 @@
 </nav>
 
 
+  
+
+
 
  </div>
     </header>
+
+    
+
 
     <main id="main" class="main">
       <div class="main-inner">
@@ -312,6 +285,8 @@
   
   
 
+  
+
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
@@ -326,7 +301,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Moses Soong">
+      <meta itemprop="name" content="Moses's Note">
     </span>
 
     
@@ -334,7 +309,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">不是所有的鱼都会生活在同一片海里</h1>
+          <h2 class="post-title" itemprop="name headline">不是所有的鱼都会生活在同一片海里</h2>
         
 
         <div class="post-meta">
@@ -346,11 +321,10 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-04T16:52:45+08:00">
-                2018-01-04
-              </time>
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-04T16:52:45+08:00">2018-01-04</time>
             
 
+            
             
 
             
@@ -368,22 +342,14 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/文学/" itemprop="url" rel="index">
-                    <span itemprop="name">文学</span>
-                  </a>
-                </span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/文学/" itemprop="url" rel="index"><span itemprop="name">文学</span></a></span>
 
                 
                 
                   ， 
                 
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/文学/散文/" itemprop="url" rel="index">
-                    <span itemprop="name">散文</span>
-                  </a>
-                </span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/文学/散文/" itemprop="url" rel="index"><span itemprop="name">散文</span></a></span>
 
                 
                 
@@ -393,19 +359,20 @@
 
           
             
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/undefined/undefined/undefined/不是所有的鱼都会生活在同一片海里/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/undefined/undefined/undefined/不是所有的鱼都会生活在同一片海里/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
           
 
           
+          
+             <span id="/undefined/undefined/undefined/不是所有的鱼都会生活在同一片海里/" class="leancloud_visitors" data-flag-title="不是所有的鱼都会生活在同一片海里">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -449,6 +416,35 @@
 
     
 
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.png" alt="Mr.Soong 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="Mr.Soong 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
     
 
     
@@ -510,9 +506,6 @@
           </div>
           
 
-
-          
-
   
     <div class="comments" id="comments">
       <div id="lv-container" data-id="city" data-uid="MTAyMC8zMzQxNy85OTcz"></div>
@@ -560,46 +553,53 @@
                 alt="Mr.Soong" />
             
               <p class="site-author-name" itemprop="name">Mr.Soong</p>
-              <p class="site-description motion-element" itemprop="description">切不可与自己的平凡为敌，也不可与周遭的平庸为伍</p>
+              <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
-          <nav class="site-state motion-element">
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives">
+                
+                    <span class="site-state-item-count">4</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
 
-            
-              <div class="site-state-item site-state-posts">
               
-                <a href="/archives/">
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    <span class="site-state-item-count">5</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
               
-                  <span class="site-state-item-count">4</span>
-                  <span class="site-state-item-name">日志</span>
-                </a>
-              </div>
-            
 
-            
               
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    <span class="site-state-item-count">4</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
               
-              <div class="site-state-item site-state-categories">
-                <a href="/categories/index.html">
-                  <span class="site-state-item-count">5</span>
-                  <span class="site-state-item-name">分类</span>
-                </a>
-              </div>
-            
+            </nav>
+          
 
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">4</span>
-                  <span class="site-state-item-name">标签</span>
-                </a>
-              </div>
-            
-
-          </nav>
-
+          
+            <div class="feed-link motion-element">
+              <a href="/sitemap.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
           
 
           
@@ -617,6 +617,12 @@
                         <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
                   </span>
                 
+                  <span class="links-of-author-item">
+                    <a href="http://weibo.com/609631239" target="_blank" title="WeiBo">
+                      
+                        <i class="fa fa-fw fa-weibo"></i>WeiBo</a>
+                  </span>
+                
             </div>
           
 
@@ -626,6 +632,9 @@
           
           
 
+          
+            
+          
           
 
         </div>
@@ -661,25 +670,21 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; 2017 &mdash; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Mr.Soong</span>
 
   
+
+  
 </div>
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
 
 
 
@@ -732,13 +737,17 @@
 
 
 
+
+
+
+
+
+
+
+  
   
 
 
-
-
-  
-  
 
 
 
@@ -755,27 +764,12 @@
 
   
   
-    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
-
-  
-  
     <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
   
 
   
   
     <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   
 
   
@@ -792,40 +786,36 @@
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=6.0.2"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
-
-
-
-  
-  
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+  <script type="text/javascript" src="/js/src/motion.js?v=6.0.2"></script>
 
 
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.0.2"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.0.2"></script>
 
 
 
   
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.0.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.0.2"></script>
 
 
 
   
 
 
-  
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.0.2"></script>
 
+
+
+  
 
 
 
@@ -860,30 +850,6 @@
 
 
 
-
-
-
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
-  
-  <script type="text/javascript">
-    var GUEST = ['nick','mail','link'];
-    var guest = 'nick,mail,link';
-    guest = guest.split(',').filter(item=>{
-      return GUEST.indexOf(item)>-1;
-    });
-    new Valine({
-        el: '#comments' ,
-        verify: false,
-        notify: false,
-        appId: 'OuiboUIcXsQX0eIEWUhKvIgC-gzGzoHsz',
-        appKey: 'HvB1cg7mAdnpWfD3EFLgwhvY',
-        placeholder: 'Just go go',
-        avatar:'mm',
-        guest_info:guest,
-        pageSize:'10' || 10,
-    });
-  </script>
 
 
 
@@ -1213,6 +1179,113 @@
   
 
   
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("OuiboUIcXsQX0eIEWUhKvIgC-gzGzoHsz", "HvB1cg7mAdnpWfD3EFLgwhvY");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
 
   
 <script>
@@ -1232,6 +1305,11 @@
 
 
   
+
+
+  
+  
+
   
 
   
