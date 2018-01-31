@@ -1676,6 +1676,16 @@ pre .javascript .function {
   display: inline-block;
   margin: 0.8em 2em 0 2em;
 }
+#wechat:hover p {
+  animation: roll 1s infinite linear;
+  -webkit-animation: roll 1s infinite linear;
+  -moz-animation: roll 1s infinite linear;
+}
+#alipay:hover p {
+  animation: roll 1s infinite linear;
+  -webkit-animation: roll 1s infinite linear;
+  -moz-animation: roll 1s infinite linear;
+}
 #bitcoin:hover p {
   animation: roll 0.1s infinite linear;
   -webkit-animation: roll 0.1s infinite linear;
@@ -1773,11 +1783,13 @@ pre .javascript .function {
   background: #222;
   -webkit-transform: translateZ(0);
 }
-.sidebar a {
+.sidebar a,
+.sidebar .exturl {
   color: #999;
   border-bottom-color: #555;
 }
-.sidebar a:hover {
+.sidebar a:hover,
+.sidebar .exturl:hover {
   color: #eee;
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1910,7 +1922,8 @@ pre .javascript .function {
 .links-of-author {
   margin-top: 20px;
 }
-.links-of-author a {
+.links-of-author a,
+.links-of-author .exturl {
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
@@ -1918,7 +1931,8 @@ pre .javascript .function {
   border-bottom-color: #555;
   font-size: 13px;
 }
-.links-of-author a:before {
+.links-of-author a:before,
+.links-of-author .exturl:before {
   display: inline-block;
   vertical-align: middle;
   margin-right: 3px;
@@ -1926,7 +1940,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffee30;
+  background: #bec3ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2754,19 +2768,23 @@ pre .javascript .function {
 .site-author:after {
   clear: both;
 }
-.sidebar a {
+.sidebar a,
+.sidebar .exturl {
   color: #555;
 }
-.sidebar a:hover {
+.sidebar a:hover,
+.sidebar .exturl:hover {
   color: #222;
 }
 .site-state-item {
   padding: 0 10px;
 }
-.links-of-author-item a:before {
+.links-of-author-item a:before,
+.links-of-author-item .exturl:before {
   display: none;
 }
-.links-of-author-item a {
+.links-of-author-item a,
+.links-of-author-item .exturl {
   border-bottom: none;
   text-decoration: underline;
 }
@@ -2792,11 +2810,15 @@ pre .javascript .function {
   flex-wrap: wrap;
   justify-content: center;
 }
+.links-of-author .exturl {
+  font-size: 13px;
+}
 .links-of-author-item {
   margin: 5px 0 0;
   width: 50%;
 }
-.links-of-author-item a {
+.links-of-author-item a,
+.links-of-author-item .exturl {
   max-width: 216px;
   box-sizing: border-box;
   display: inline-block;
@@ -2807,11 +2829,13 @@ pre .javascript .function {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.links-of-author-item a {
+.links-of-author-item a,
+.links-of-author-item .exturl {
   display: block;
   text-decoration: none;
 }
-.links-of-author-item a:hover {
+.links-of-author-item a:hover,
+.links-of-author-item .exturl:hover {
   border-radius: 4px;
   background: #eee;
 }
@@ -2848,7 +2872,8 @@ pre .javascript .function {
   display: inline-block;
   width: unset;
 }
-.links-of-blogroll-inline .links-of-blogroll-item a {
+.links-of-blogroll-inline .links-of-blogroll-item a,
+.links-of-blogroll-inline .links-of-blogroll-item .exturl {
   max-width: 216px;
   box-sizing: border-box;
   display: inline-block;
