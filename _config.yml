@@ -116,15 +116,15 @@ theme_config:
   # For example, you put your favicons into `hexo-site/source/images` directory.
   # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
   favicon: #网站图标
-    small: /images/favicon-16x16-my.png
-    medium: /images/favicon-32x32-my.png
-    apple_touch_icon: /images/favicon180x180-my.png
-    safari_pinned_tab: /images/logo-my.svg
+    small: /images/self/favicon-16x16-my.png
+    medium: /images/self/favicon-32x32-my.png
+    apple_touch_icon: /images/self/favicon180x180-my.png
+    safari_pinned_tab: /images/self/logo-my.svg
     #android_manifest: /images/manifest.json
     #ms_browserconfig: /images/browserconfig.xml
 
   #头像
-  avatar: https://github.com/mengxinghe/Photos/blob/master/avatar.jpg?raw=true
+  avatar: /images/self/avatar.jpg
 
   menu:
     home: / || home
@@ -200,8 +200,8 @@ theme_config:
 
   # Reward
   reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
-  wechatpay: https://github.com/mengxinghe/Photos/blob/master/wechatpay.png?raw=true
-  alipay: https://github.com/mengxinghe/Photos/blob/master/alipay.jpg?raw=true
+  wechatpay: /images/self/wechatpay.png
+  alipay: /images/self/alipay.jpg
   #bitcoin: /images/bitcoin.png
 
   # Valine.
