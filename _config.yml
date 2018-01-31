@@ -100,10 +100,10 @@ deploy:
   repo:
     github: git@github.com:mengxinghe/mengxinghe.github.io.git,master
     coding: git@git.coding.net:mengxinghe/mengxinghe.coding.me.git,master
-# _config.yml Next 主题配置文件
+# _config.yml Next 主题配置文件++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 theme_config:
   #头像
-  avatar: /images/avatar.jpg
+  avatar: https://github.com/mengxinghe/Photos/blob/master/avatar.jpg?raw=true
 
   menu:
     home: / || home
@@ -124,7 +124,7 @@ theme_config:
   rss: sitemap.xml
 
   # Set default keywords (Use a comma to separate)
-  keywords: "mrsoong,unity,梦星河,游戏开发"
+  keywords: "mrsoong,unity,梦星河,游戏开发,hexo"
   # Schemes
   #scheme: Muse
   #scheme: Mist
@@ -144,6 +144,17 @@ theme_config:
   # canvas_sphere
   canvas_sphere: false
 
+  # Only fit scheme Pisces
+  # Dependencies: https://github.com/theme-next/theme-next-canvas-ribbon
+  # Canvas-ribbon
+  # size: The width of the ribbon.
+  # alpha: The transparency of the ribbon.
+  # zIndex: The display level of the ribbon.
+  canvas_ribbon:
+    enable: false
+    size: 300
+    alpha: 0.6
+    zIndex: -1
 
   social:
     GitHub: https://github.com/mengxinghe || github
@@ -168,8 +179,8 @@ theme_config:
 
   # Reward
   reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
-  wechatpay: /images/wechatpay.png
-  alipay: /images/alipay.jpg
+  wechatpay: https://github.com/mengxinghe/Photos/blob/master/wechatpay.png?raw=true
+  alipay: https://github.com/mengxinghe/Photos/blob/master/alipay.jpg?raw=true
   #bitcoin: /images/bitcoin.png
 
   # Valine.
