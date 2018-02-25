@@ -52,6 +52,7 @@ date: 2018-01-21 03:32:12
 44. ue4相关
 45. strangeIoc
 46. xlua
+47. hexo设置skip_render,指定不进行渲染的文件
 
 
 
