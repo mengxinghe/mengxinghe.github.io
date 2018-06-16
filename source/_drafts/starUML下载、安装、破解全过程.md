@@ -1,0 +1,48 @@
+---
+abbrlink: '0'
+---
+# 正宗破解，十分好用，稳定到starUML2
+
+## StarUML官方下载地址： 
+http://staruml.io/download
+
+## 破解： 
+1. 使用Editplus或者Notepad++等特殊的文本编辑器打开 安装位置下/www/license/node/LicenseManagerDomain.js文件 
+2. 修改validate方法，在如下指定的位置上添加指定的代码
+
+```
+function validate(PK, name, product, licenseKey) {
+        var pk, decrypted;
+        //添加代码开始
+        return {
+            name: "hancher",
+            product: "StarUML",
+            licenseType: "vip",
+            quantity: "www.hancher.com",
+            licenseKey: "hello,hancher!"
+        }
+        //添加代码结束
+        try {
+            pk = new NodeRSA(PK);
+            decrypted = pk.decrypt(licenseKey, 'utf8');
+        } catch (err) {
+            return false;
+        }
+        var terms = decrypted.trim().split("\n");
+        if (terms[0] === name && terms[1] === product) {
+            return { 
+                name: name, 
+                product: product, 
+                licenseType: terms[2],
+                quantity: terms[3],
+                licenseKey: licenseKey
+            };
+        } else {
+            return false;
+        }
+    }
+```
+在如上位置，插入如上代码。
+
+3. 验证打开StarUML，打开菜单Help->Enter License，输入上面指定的name和license信息，分别为hancher和hello,hancher!，成功！ 
+然后就有注册成功的提示信息了，help->about startuml，可以看到​提示信息已注册 
