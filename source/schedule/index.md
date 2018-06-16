@@ -10,16 +10,11 @@ date: 2018-01-21 03:32:12
 2. 视角引导 怪物提示
 3. 边界提示
 4. unity打开资源管理器
-5. 打开外部程序
-6. 虚拟按键 模拟按键精灵
-7. 硬边和软边
 8. 向量投影，四元数应用相关
 9. unity优化相关
-10. 算法相关
 11. 热更新相关
 12. www http scoket相关
 13. assetsbundle相关
-14. windzone 风吹效果
 15. 液体效果
 16. 胶体效果
 17. Timeline unity2017 
@@ -35,8 +30,6 @@ date: 2018-01-21 03:32:12
 32. 粒子系统
 33. 动画模型相关
 34. 数据结构相关
-35. GIT与Hexo
-36. scoket相关
 37. 多线程，线程池管理
 38. 区块链
 39. 纪念碑谷游戏实现
@@ -50,10 +43,8 @@ date: 2018-01-21 03:32:12
 47. hexo设置skip_render,指定不进行渲染的文件
 48. windows 新建gitignore
 43. starUML
-44. PoolManager
 45. FairyGui
 46. Best Http
-47. photen
 48. Avpro Video&Unity vedioPlayer
 49. Simplejson&LitJson
 50. SQLite
