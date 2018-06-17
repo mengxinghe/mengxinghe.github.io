@@ -6,7 +6,7 @@ tags:
   - Poolmanager
 categories:
   - Unity
-date: 2018-07-01 00:00:00
+date: 2018-06-01 00:00:00
 comments:
 ---
 # PoolManager使用案例
@@ -15,7 +15,7 @@ comments:
 对象池技术——是一种广泛通用的内存优化手段。在首次建立对象时，便将其存储在池子中，需要再次使用时，不是每次都实例化一个新的对象，而是查找回收池中是否存在闲置的对象，将其重新激活利用。  
 PoolManager 应该是个很常用的对象池插件，最近拿来用，还是有一些值得注意的地方的
 
-```
+```C#
 using PathologicalGames;
 using System.Collections;
 using System.Collections.Generic;

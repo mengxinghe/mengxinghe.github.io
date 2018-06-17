@@ -128,15 +128,26 @@ theme_config:
   # For example, you put your favicons into `hexo-site/source/images` directory.
   # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
   favicon: #网站图标  http://p3goxj4ar.bkt.clouddn.com/static
-    small: /images/self/favicon-16x16-my.png
-    medium: /images/self/favicon-32x32-my.png
-    apple_touch_icon: /images/self/favicon180x180-my.png
-    safari_pinned_tab: /images/self/logo-my.svg
+    small: /images/mx_favicon-16x16-my.png
+    medium: /images/mx_favicon-32x32-my.png
+    apple_touch_icon: /images/mx_favicon180x180-my.png
+    safari_pinned_tab: /images/mx_logo-my.svg
     #android_manifest: /images/manifest.json
     #ms_browserconfig: /images/browserconfig.xml
 
   #头像
-  avatar: /images/self/avatar.jpg
+  # Sidebar Avatar
+  avatar:
+    # in theme directory(source/images): /images/avatar.gif
+    # in site  directory(source/uploads): /uploads/avatar.gif
+    # You can also use other linking images.
+    url: /images/mx_avatar.jpg
+    # If true, the avatar would be dispalyed in circle. 
+    rounded: true
+    # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
+    opacity: 1
+    # If true, the avatar would be rotated with the cursor.
+    rotated: false
 
   menu:
     home: / || home
@@ -160,8 +171,8 @@ theme_config:
   keywords: "mrsoong,unity,梦星河,游戏开发,hexo"
   # Schemes
   #scheme: Muse
-  #scheme: Mist
-  scheme: Pisces
+  scheme: Mist
+  #scheme: Pisces
   #scheme: Gemini
 
   # Canvas-nest
@@ -212,8 +223,8 @@ theme_config:
 
   # Reward
   reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
-  wechatpay: /images/self/wechatpay.png
-  alipay: /images/self/alipay.jpg
+  wechatpay: /images/mx_wechatpay.png
+  alipay: /images/mx_alipay.jpg
   #bitcoin: /images/bitcoin.png
 
   # Valine.
