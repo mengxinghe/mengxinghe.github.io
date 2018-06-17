@@ -304,7 +304,7 @@ theme_config:
       version: true
     # -------------------------------------------------------------
     # Any custom text can be defined here.
-    #custom_text: Hosted by <a target="_blank" href="https://pages.github.com">GitHub Pages</a>
+    custom_text: Hosted by <a target="_blank" rel="external nofollow" href="https://pages.coding.me"><b>Coding Pages</b></a>
 
   # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
   seo: true
