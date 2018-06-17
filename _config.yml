@@ -147,7 +147,7 @@ theme_config:
     # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
     opacity: 1
     # If true, the avatar would be rotated with the cursor.
-    rotated: false
+    rotated: true
 
   menu:
     home: / || home
