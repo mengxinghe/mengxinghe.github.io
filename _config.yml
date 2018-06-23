@@ -171,9 +171,9 @@ theme_config:
   keywords: "mrsoong,unity,梦星河,游戏开发,hexo"
   # Schemes
   #scheme: Muse
-  scheme: Mist
+  #scheme: Mist
   #scheme: Pisces
-  #scheme: Gemini
+  scheme: Gemini
 
   # Canvas-nest
   # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
