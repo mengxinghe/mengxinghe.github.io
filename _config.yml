@@ -286,7 +286,7 @@ theme_config:
   footer:
     # Specify the date when the site was setup.
     # If not defined, current year will be used.
-    since: 2017
+    since: 2018-2019
 
     # Icon between year and copyright info.
     icon: user
@@ -312,10 +312,12 @@ theme_config:
   # If true, will add site-subtitle to index page, added in main hexo config.
   # subtitle: Subtitle
   index_with_subtitle: true
+  # Automatically excerpt description in homepage as preamble text.
+  excerpt_description: true
 
   # Automatically Excerpt. Not recommend.
   # Please use <!-- more --> in the post to control excerpt accurately.
   auto_excerpt:
     enable: true
-    length: 150
+    length: 120
 

@@ -8,9 +8,8 @@ categories:
 date: 2017-01-01 00:00:00
 comments:
 ---
-# windzone _风吹树动  
 ## 引言  
- 用unity很久了，一直有留意到创建菜单`3D Object`下有个`Wind Zone`，看意思大概是风洞之类的效果，但一直没用过。今天有空研究研究
+ 用unity很久了，一直有留意到创建菜单`3D Object`下有个`Wind Zone`，看意思大概是风洞之类的效果，但一直没用过。今天有空研究研究<!-- more -->
 
 ## 正题
 

@@ -12,7 +12,7 @@ categories:
 comments:
 ---
 # 1. 分别根据平台建立响应仓库
-
+<!-- more -->
 
 
 # 2. 站点配置文件`_config.yml`的修改
