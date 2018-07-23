@@ -10,11 +10,11 @@ comments:
 ---
 # git status中文文件名编码问题解决
 
-在默认设置下，中文文件名在工作区状态输出，中文名不能正确显示，而是显示为八进制的字符编码。
+在默认设置下，中文文件名在工作区状态输出，中文名不能正确显示，而是显示为八进制的字符编码。<!-- more -->
 
 通过将git配置变量 `core.quotepath` 设置为`false`，就可以解决中文文件名称在这些Git命令输出中的显示问题,
 ```
 ：git config --global core.quotepath false
 ```
 
-![mark](http://p3goxj4ar.bkt.clouddn.com/blog/180623/B275LHhLi8.png?imageslim)
+![mark](http://p3goxj4ar.bkt.clouddn.com/blog/180623/B275LHhLi8.png?imageView2/0/q/75|watermark/2/text/bXJzb29uZy5jb20=/font/5qW35L2T/fontsize/600/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10)

@@ -20,7 +20,7 @@ comments:
     }  
 ```
 执行就会发现：  
-![mark](http://p3goxj4ar.bkt.clouddn.com/blog/180617/3hJhgK7GmH.png?imageslim)  
+![mark](http://p3goxj4ar.bkt.clouddn.com/blog/180617/3hJhgK7GmH.png?imageView2/0/q/75|watermark/2/text/bXJzb29uZy5jb20=/font/5qW35L2T/fontsize/600/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10)  
 脚本自动关闭了。
 
 测试发现，Start() 与 Update() 都不会这样。不晓得什么逻辑

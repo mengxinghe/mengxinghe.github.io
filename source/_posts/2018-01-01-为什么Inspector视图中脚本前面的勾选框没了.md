@@ -10,7 +10,7 @@ comments:
 ---
 ## 引言
 如下图所示  
-![mark](http://p3goxj4ar.bkt.clouddn.com/blog/180616/Ec4GHkebjf.png?imageslim)  
+![mark](http://p3goxj4ar.bkt.clouddn.com/blog/180616/Ec4GHkebjf.png?imageView2/0/q/75|watermark/2/text/bXJzb29uZy5jb20=/font/5qW35L2T/fontsize/600/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10)  
 在Unity开发中，有时会发现Inspector视图中脚本前面的勾选框会消失。<!-- more -->好奇就测试了下：  
 ## 经过测试
 发现消失的情况是把新建脚本后把 `Start() `与 `Update()` 方法删除导致的。  
