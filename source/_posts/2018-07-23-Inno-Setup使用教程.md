@@ -23,9 +23,9 @@ comments:
 
 ## 1.2 下载中文语音包
 
-![mark](http://p3goxj4ar.bkt.clouddn.com/blog/180723/ebIhjL9BkH.png?imageslim)
+![mark](/../../Photos/blog/180723/ebIhjL9BkH.png)
 
-Unofficial translations（非官方翻译）-Chinese (Simplified)（中文简体）-5.5.3+-右键-目标另存为，如下图所示：![mark](http://p3goxj4ar.bkt.clouddn.com/blog/180723/dkE6LfkHiL.png?imageslim)
+Unofficial translations（非官方翻译）-Chinese (Simplified)（中文简体）-5.5.3+-右键-目标另存为，如下图所示：![mark](/../../Photos/blog/180723/dkE6LfkHiL.png)
 
 ChineseSimplified.isl文件放入“C:\Program Files (x86)\Inno Setup 5\Languages”目录。
 
@@ -33,57 +33,57 @@ ChineseSimplified.isl文件放入“C:\Program Files (x86)\Inno Setup 5\Language
 
 1.3.1 新建脚本
 
-![mark](http://p3goxj4ar.bkt.clouddn.com/blog/180723/e2a89CG88G.png?imageslim)
+![mark](/../../Photos/blog/180723/e2a89CG88G.png)
 
 1.3.2 输入产品与公司信息
 
-![mark](http://p3goxj4ar.bkt.clouddn.com/blog/180723/64mK78i66J.png?imageslim)
+![mark](/../../Photos/blog/180723/64mK78i66J.png)
 
 1.3.3 输入程序安装文件夹名称
 
-![mark](http://p3goxj4ar.bkt.clouddn.com/blog/180723/AaABb11L8L.png?imageslim)
+![mark](/../../Photos/blog/180723/AaABb11L8L.png)
 
 1.3.4 添加主程序地址与程序文件夹
 
-![mark](http://p3goxj4ar.bkt.clouddn.com/blog/180723/aEJ3IDBdjK.png?imageslim)
+![mark](/../../Photos/blog/180723/aEJ3IDBdjK.png)
 
 1.3.5  开始菜单文件夹相关与座面快捷方式相关设置
 
-![mark](http://p3goxj4ar.bkt.clouddn.com/blog/180723/DHjme0DffK.png?imageslim)
+![mark](/../../Photos/blog/180723/DHjme0DffK.png)
 
 1.3.5 添加许可文件
 
-![mark](http://p3goxj4ar.bkt.clouddn.com/blog/180723/BGAH1l18Gi.png?imageslim)
+![mark](/../../Photos/blog/180723/BGAH1l18Gi.png)
 
 1.3.6 安装语言选择，可多选（刚安装的中文支持就在这用）
 
-![mark](http://p3goxj4ar.bkt.clouddn.com/blog/180723/6hd2fi11fA.png?imageslim)
+![mark](/../../Photos/blog/180723/6hd2fi11fA.png)
 
 1.3.7 选择输出文件夹与图标选择
 
-![mark](http://p3goxj4ar.bkt.clouddn.com/blog/180723/l8HK7GlA8k.png?imageslim)
+![mark](/../../Photos/blog/180723/l8HK7GlA8k.png)
 
 1.3.8 使用编译命令
 
-![mark](http://p3goxj4ar.bkt.clouddn.com/blog/180723/9L63gK57H7.png?imageslim)
+![mark](/../../Photos/blog/180723/9L63gK57H7.png)
 
 1.3.9  Finish 如下图
 
-![mark](http://p3goxj4ar.bkt.clouddn.com/blog/180723/eBgj85CBAe.png?imageslim)
+![mark](/../../Photos/blog/180723/eBgj85CBAe.png)
 
 1.3.10  是否编译
 
-![mark](http://p3goxj4ar.bkt.clouddn.com/blog/180723/lbbkJciB5G.png?imageslim)
+![mark](/../../Photos/blog/180723/lbbkJciB5G.png)
 
 1.3.11 是否保存脚本（选择否，脚本自动保存”我的文档“文件夹），如下图所示： 
 
- ![mark](http://p3goxj4ar.bkt.clouddn.com/blog/180723/4llh5aeaGB.png?imageslim)
+ ![mark](/../../Photos/blog/180723/4llh5aeaGB.png)
 
 
 
 1.3.12 保存脚本
 
-![mark](http://p3goxj4ar.bkt.clouddn.com/blog/180723/FB2dgEJJ65.png?imageslim)
+![mark](/../../Photos/blog/180723/FB2dgEJJ65.png)
 
 
 
