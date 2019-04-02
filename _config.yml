@@ -14,8 +14,8 @@ timezone: Asia/Shanghai
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://mrsoong.com
 root: /
-# permalink: posts/:year-:month-:day-:abbrlink.html
-# permalink_defaults: posts/:year-:month-:day-:title.html
+permalink: posts/:year-:month-:day-:abbrlink.html
+permalink_defaults: posts/:year-:month-:day-:title.html
 
 # abbrlink config
 abbrlink:
