@@ -5,8 +5,8 @@ tags:
   - Unity
 categories:
   - Unity
+abbrlink: 49ad13f6
 date: 2019-04-03 15:30:27
-abbrlink:
 comments:
 ---
 Shader.Find的一个坑，unity打包的时候，不会打包那些没有被引用的shader,所以编辑器下正常，打包后就报错。
