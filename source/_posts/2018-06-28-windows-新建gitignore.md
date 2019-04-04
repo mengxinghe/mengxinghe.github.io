@@ -12,7 +12,7 @@ comments:
 ---
 我们都知道`GIT`使用`.gitignore`文件来保存忽略列表，但是在`window`下新建文件时必须输入文件名（`windows`认为`.gitignore`是一个后缀），否则就会报下面的错误
 <!-- more -->
-![mark](/../../Photos/blog/180628/2CdchaAfIe.png)
+![mark](/../../Photos/180628/2CdchaAfIe.png)
 
 怎么办呢？
 ## 解决方案

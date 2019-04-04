@@ -15,7 +15,7 @@ comments:
 
  研究发现，原来这个东西是作用在地形上种的树的。
  效果如下  
- ![mark](/../../Photos/blog/180617/EJ2J9BFgbi.gif)
+ ![mark](/../../Photos/180617/EJ2J9BFgbi.gif)
 
  ## 注意点  
 
@@ -23,4 +23,4 @@ comments:
 1. 植物模型的材质类型必须使用植物专用的Nature中的类别
 2. 地形编辑添加树木素材时需要把Bend Factor 数值开启  
 
-![mark](/../../Photos/blog/180617/KKm2jAjhaA.png)
+![mark](/../../Photos/180617/KKm2jAjhaA.png)

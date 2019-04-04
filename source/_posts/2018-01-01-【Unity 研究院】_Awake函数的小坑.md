@@ -20,7 +20,7 @@ comments:
     }  
 ```
 执行就会发现：  
-![mark](/../../Photos/blog/180617/3hJhgK7GmH.png)  
+![mark](/../../Photos/180617/3hJhgK7GmH.png)  
 脚本自动关闭了。
 
 测试发现，Start() 与 Update() 都不会这样。不晓得什么逻辑

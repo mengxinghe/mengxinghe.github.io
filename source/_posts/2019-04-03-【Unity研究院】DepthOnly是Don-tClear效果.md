@@ -1,9 +1,9 @@
 ---
 title: 【Unity研究院】DepthOnly是Don'tClear效果
 tags:
-  - Unity研究院
+  - Unity
 categories:
-  - Unity3D
+  - Unity
 abbrlink: '214e002'
 date: 2019-04-03 14:55:17
 comments:
@@ -15,7 +15,7 @@ comments:
 2. 右键新建一个圆球
 3. 直接把场景中默认`Main Camera`的`ClearFlags`改为`DepthOnly`
 4. 运行场景，拖动圆球，会发生下图场景  
-![mark](/../../Photos/depthonly.png)
+![mark](/../../Photos/190403/depthonly.png)
 
 很明显，这是Don'tClear的效果
 

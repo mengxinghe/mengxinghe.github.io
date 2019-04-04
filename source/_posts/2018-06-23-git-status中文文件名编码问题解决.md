@@ -17,4 +17,4 @@ comments:
 ：git config --global core.quotepath false
 ```
 
-![mark](/../../Photos/blog/180623/B275LHhLi8.png)
+![mark](/../../Photos/180623/B275LHhLi8.png)
